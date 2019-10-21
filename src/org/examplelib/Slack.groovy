@@ -7,7 +7,4 @@ class Slack {
   }
 }
 
-def s =  new Slack()
-s.msg="pepinos"
-s.sendMessage()
 
