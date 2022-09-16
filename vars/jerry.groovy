@@ -8,9 +8,5 @@ def hi(message,url){
     } catch (Exception ex){
         println("There's been some error but we are carrying on")
     }
-    finally {
-        println(res.status)
-
-    }
 
 }
