@@ -6,7 +6,7 @@ def hi(message,url){
             timeout: 2,
         )
     } catch (Exception ex){
-        println("There's been an exception of type"+ex.toString()+"\nBut we're carrying on anyways"
+        println("There's been an exception of type"+ex.toString()+"\nBut we're carrying on anyways")
     }
 
 }
