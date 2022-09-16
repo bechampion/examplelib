@@ -4,7 +4,6 @@ def greetings(message,url) {
 }
 
 def hi(message,url) {
-    echo "comming from lib ${message}"
     try {
         def res = httpRequest(
             url: "${url}",
