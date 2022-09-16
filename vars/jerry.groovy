@@ -4,7 +4,7 @@ def greetings(message,url) {
 }
 
 def hi(message,url) {
-    def res = 000
+    def res = 000.toString()
     try {
         res = httpRequest(
             url: "${url}",
