@@ -1,5 +1,5 @@
 def greetings(message,url) {
-    println(jerry.hi(message,url))
+    println(hi(message,url))
 }
 
 def hi(message,url) {
