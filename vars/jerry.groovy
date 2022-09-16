@@ -6,7 +6,7 @@ def hi(message,url){
             timeout: 2,
         )
     } catch (Exception ex){
-        println("There's been some error but we are carrying on")
+        println("There's been some error but we are carrying on"+ex.toString())
     }
 
 }
