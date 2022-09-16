@@ -1,3 +1,7 @@
+def greetings(message,url) {
+    println(jerry.hi(message,url))
+}
+
 def hi(message,url) {
     echo "comming from lib ${message}"
     try {
