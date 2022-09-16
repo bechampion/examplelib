@@ -1,4 +1,4 @@
-def hi(message,url){
+def hi(message,url) {
     echo "comming from lib ${message}"
     try {
         def res = httpRequest(
@@ -7,6 +7,9 @@ def hi(message,url){
         )
     } catch (Exception ex){
         println("There's been an exception of type"+ex.toString()+"\nBut we're carrying on anyways")
+    }finally {
+        return 000
     }
+    return res.status
 
 }
