@@ -6,7 +6,7 @@ def hi(message,url){
             timeout: 2,
         )
     } catch (Exception ex){
-        println(ex.message.get.Message())
+        println(ex.getMessage())
     }
 
 }
