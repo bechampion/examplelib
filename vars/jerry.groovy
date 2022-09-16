@@ -1,6 +1,6 @@
 def greetings(message,url) {
     println("ret")
-    println(hi(message,url))
+   return hi(message,url)
 }
 
 def hi(message,url) {
