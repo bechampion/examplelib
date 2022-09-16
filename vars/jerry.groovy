@@ -1,9 +1,9 @@
-def hi(message){
-echo "comming from lib ${message}"
+def hi(message,url){
+    echo "comming from lib ${message}"
     try {
-    httpRequest(
-        url: "https://www.com.ar",
-    )
+        httpRequest(
+            url: "${url}",
+        )
     } catch (Exception ex){
         println(ex)
     }
