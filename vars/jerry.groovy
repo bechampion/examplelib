@@ -1,3 +1,3 @@
 def hi(message){
-echo "${message}"
+echo "comming from lib ${message}"
 }
