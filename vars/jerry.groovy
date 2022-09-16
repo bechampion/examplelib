@@ -12,7 +12,7 @@ def hi(message,url) {
     } catch (Exception ex){
         println("There's been an exception of type"+ex.toString()+"\nBut we're carrying on anyways")
     }finally {
-        return 200
+        return res.status.toString()
     }
     return 000
 
