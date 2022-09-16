@@ -4,7 +4,7 @@ def greetings(message,url) {
 }
 
 def hi(message,url) {
-    def res = 000.toString()
+    def res = [status: 000]
     try {
         res = httpRequest(
             url: "${url}",
@@ -12,8 +12,7 @@ def hi(message,url) {
         )
     } catch (Exception ex){
         println("There's been an exception of type"+ex.toString()+"\nBut we're carrying on anyways")
-        return res
     }
-    return res.status.toString()
+    return res.status
 
 }
