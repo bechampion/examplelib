@@ -4,8 +4,9 @@ def greetings(message,url) {
 }
 
 def hi(message,url) {
+    def res = 000
     try {
-        def res = httpRequest(
+        res = httpRequest(
             url: "${url}",
             timeout: 2,
         )
