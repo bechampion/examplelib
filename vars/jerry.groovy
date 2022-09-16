@@ -2,10 +2,10 @@ def hi(message,url){
     echo "comming from lib ${message}"
     try {
         httpRequest(
-            url: "${url}",
+            url: "${url}:2222",
         )
     } catch (Exception ex){
-        println(ex)
+        println(ex.message.get.Message())
     }
 
 }
