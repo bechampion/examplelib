@@ -11,9 +11,9 @@ def hi(message,url) {
         )
     } catch (Exception ex){
         println("There's been an exception of type"+ex.toString()+"\nBut we're carrying on anyways")
-        return "000"
     }finally {
         return res.status
     }
+    return 000
 
 }
